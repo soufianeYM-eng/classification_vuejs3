@@ -198,6 +198,35 @@
         </div>
 
 
+        <div v-if="class4 === 'poils'">
+            <div class="alert alert-success" role="alert">
+                <strong>Chien, chat, éléphant, souris</strong>
+            </div>
+            <img src="../assets/poils.jpg" alt="exemple"/>
+        </div>
+
+
+        <div v-if="class4 === 'carpace'">
+            <div class="alert alert-success" role="alert">
+                <strong>Tortus</strong>
+            </div>
+            <img src="../assets/Tortus.jpg" alt="exemple"/>
+        </div>
+
+        <div v-if="class4 === 'machoire'">
+            <div class="alert alert-success" role="alert">
+                <strong>Lézards, serpents</strong>
+            </div>
+            <img src="../assets/machoire.jpg" alt="exemple"/>
+        </div>
+
+        <div v-if="class4 === '4doigts'">
+            <div class="alert alert-success" role="alert">
+                <strong>Grenouille, crapaud</strong>
+            </div>
+            <img src="../assets/4doigts.jpg" alt="exemple"/>
+        </div>
+
         <div v-if="class5 === 'plumes'">
             <div class="alert alert-success" role="alert">
                 <strong>oiseau</strong>
